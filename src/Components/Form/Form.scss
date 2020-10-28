@@ -1,0 +1,22 @@
+.form {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 500px;
+
+    &__input {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        margin-top: 5px;
+    }
+
+    &__send-button {
+        position: relative;
+        margin-top: 10px;
+        padding: 10px 62px;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+        color: white
+    }
+}
